@@ -7,3 +7,4 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('casn', 'Casn::index');
+$routes->post('casn', 'Casn::index');
